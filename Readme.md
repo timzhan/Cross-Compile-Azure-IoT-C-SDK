@@ -98,7 +98,7 @@ cd ~
 mkdir RPiTools
 cd RPiTools
 git clone https://github.com/raspberrypi/tools.git
-    ```
+```
 Please be noted that these tools don't give you all the files required to build the project. Therefore, you will need to copy the files from Raspberry Pi to the host machine.
 
 6. Copy required files from Raspberry Pi to the host machine.
