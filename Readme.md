@@ -47,7 +47,7 @@ cd azure-iot-sdk-c/build_all/linux/
 Now, you are ready on the Raspberry Pi. Keep it running as we will need to copy some files from Raspberry Pi to the host PC.
 
 
-## Step 2: Setting up the Ubuntu development environment
+## Step 2: Set up the Ubuntu development environment
 
 This section describes how to set up a development environment for Azure IoT C SDK on Ubuntu 18.04.
 
