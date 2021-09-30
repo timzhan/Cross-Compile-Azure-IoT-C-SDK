@@ -70,21 +70,20 @@ git submodule update --init
 ```
 
 4. Once the Azure IoT SDK is cloned, you may check if all the dependencies are in place by running below setup script.
-   ```
+
+```
 cd ~/Source/azure-iot-sdk-c/build_all/linux/
 ./setup.sh
 ```
 
 You may see the `build-sessential, pkg-config, cmkae, curl, git, libcurl4-openssl-dev, libssl-dev, uuid-dev, valgrind` are already the newest version, and also the `repo azure-iot-sdk-c` is laready cloned.
 
-    ![](images/setup-run.png)
+![](images/setup-run.png)
 
 
 Btw, this guide is about cross-compiling the Azure IoT SDK for arm device. If you want to build the C SDK on amd64 Linux, you can follow below to do that. 
 
 ```
-# This part is OPTIONAL.
-
 cd ~/Source/azure-iot-sdk-c/
 mkdir cmake
 cd cmake
